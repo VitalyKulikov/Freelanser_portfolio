@@ -1,0 +1,49 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Jost&family=Poppins:wght@400;500;700&display=swap');
+
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+html, body{ 
+  font-family: 'DM Sans';
+}
+
+*{
+  border: 1px solid red;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+}
+
+/* nav */
+
+.nav{
+  padding: 20px 0;
+  border-bottom: 1px solid #262920;
+  background-color: #171718;
+  color: #fff;
+}
+
+.nav-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap ;
+}
+
+.logo{
+  color:#fff;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo strong{
+  font-weight: 700;
+}
+
