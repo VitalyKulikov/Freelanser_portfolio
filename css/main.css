@@ -34,6 +34,10 @@ html, body{
   max-width: 1200px;
 }
 
+.none{
+  display: none !important ;
+}
+
 /* nav */
 
 .nav{
@@ -201,6 +205,13 @@ html, body{
   border-radius: 10px;
 }
 
+.project iframe{
+  width: 370px;
+  height: 297px;
+  border-radius: 10px;
+
+}
+
 .project__img{
   border-radius: 10px;
 }
@@ -214,4 +225,31 @@ html, body{
 
 }
 
- 
+ /* footer */
+
+ .footer{
+  padding: 60px 0 50px;
+  background-color: var(--dark-bg);
+  color: var(--header-text);
+ }
+
+ .footer__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 27px;
+ }
+
+ .social{
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+ }
+
+ .copyright{
+  font-size: 16px;
+ }
+
+ .copyright p+p{
+  margin-top: 0.5em;
+ }
